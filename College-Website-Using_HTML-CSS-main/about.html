@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Eduford - World Biggest University</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="sub-header">
+        <nav>
+            <!--a href="#"><img src="images/logo.png" alt="Logo"></a-->
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="about-box">
+            <h1>About Us</h1>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world largest university</h1>
+                <p>At Oasis University, we are committed to providing our students with a world-class education and a supportive community to help them achieve their academic and personal goals. 
+                    Our faculty are experts in their fields and are dedicated to helping students succeed.Our campus is equipped with state-of-the-art facilities, including a modern library, research centers, and recreational facilities, providing students with a comprehensive learning experience. 
+                    We offer a range of academic programs across various disciplines, providing students with the flexibility to pursue their passions and interests.
+                    In addition to our academic offerings, we provide students with a variety of extracurricular activities and opportunities to enhance their leadership skills and engage with the campus community. 
+                    Our commitment to diversity, equity, and inclusion is reflected in our campus culture and community.</p>
+                <a href="" class="hero-btn-red">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>At Oasis University, we believe in the power of education to transform lives and make a positive impact in the world.
+             We are proud to be a leading academic institution in Canada and to contribute to the advancement of knowledge and the betterment of society.
+            </p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitch" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <!--p>Made with <i class="fa fa-heart" aria-hidden="true"></i> By <a href="#">MdRasen</a></p-->
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <title>Eduford - World Biggest University</title>
+</head>
+
+<body>
+
+    <!----Header---->
+    <section class="course-header">
+        <nav>
+            <!--a href="#"><img src="images/logo.png" alt="Logo"></a-->
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="course-text-box">
+            <h1>Our Courses</h1>
+        </div>
+    </section>
+
+    <!----Course---->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+            <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Intermediate Accounting<br>
+
+                    Organic Chemistry II<br>
+                    
+                    Microeconomics<br>
+
+                    Intermediate Statistics<br>
+                    
+                    Intermediate Programming</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Bachelors in:<br>
+                    Computer Engineering<br>
+                    Electrical Engineering<br>
+                    Information Technology<br>
+                    Civil Engineering<br>
+                    Business Administration
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>
+                    Masters in:<br>
+                    Computer Engineering<br>
+                    Electrical Engineering<br>
+                    Mechanical Technology<br>
+                    Civil Engineering<br>
+                    Business Administration
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----Facilities---->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>As you walk around our campus, you will see a variety of academic buildings, residence halls, research centers, and recreational facilities.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="Library">
+                <h3>World Class Library</h3>
+                <p>Our library is housed in a modern building, designed to provide a comfortable and welcoming space for study and research. 
+                    The collection at the Oasis University library includes over a million books, journals, and a wide range of electronic databases, providing access to thousands of e-books, e-journals, and other digital resources.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="Play Ground">
+                <h3>Largest Play Ground</h3>
+                <p>Oasis University's playground is a popular spot for students to unwind and take a break from their academic pursuits. 
+                    The playground features a variety of recreational facilities, including basketball courts, soccer fields, and a jogging track.
+                     The well-maintained grounds and scenic views make the playground an ideal place to relax and stay active.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="Cafeteria">
+                <h3>Tasty And Healthy</h3>
+                <p>Oasis University's canteen is a bustling hub of activity, providing students with a range of delicious and affordable food options. 
+                    The canteen features a variety of cuisines, catering to diverse tastes and dietary needs. 
+                    The friendly staff and welcoming atmosphere make the canteen a popular spot for students to socialize and refuel between classes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>At Oasis University, we believe in the power of education to transform lives and make a positive impact in the world. 
+            We are proud to be a leading academic institution in Canada and to contribute to the advancement of knowledge and the betterment of society.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitch" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <!--p>Made with <i class="fa fa-heart" aria-hidden="true"></i> By <a href="#">MdRasen</a></p-->
+    </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+        <title>Oasis University - World Biggest University</title>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</head>
+
+<body>
+    <df-messenger
+    intent="WELCOME"
+    chat-title="Nova"
+    agent-id="538cbef5-c6e9-4171-8f57-943fc88e6992"
+    language-code="en"
+  ></df-messenger>
+  <style>
+    df-messenger {
+     --df-messenger-bot-message: #878fac;
+     --df-messenger-button-titlebar-color: #df9b56;
+     --df-messenger-chat-background-color: #fafafa;
+     --df-messenger-font-color: white;
+     --df-messenger-send-icon: #878fac;
+     --df-messenger-user-message: #479b3d;
+    }
+  </style>
+    <!----Header---->
+    <section class="header">
+        <nav>
+            <!--a href="#"><img src="images\WhatsApp Image 2023-03-04 at 5.55.22 AM.jpeg" alt="Logo"></a-->
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>Oasis University</h1>
+            <h4>World's Biggest University</h4>
+            <p>Do what you can, with what you have, where you are.</p>
+            <!--a href="" class="hero-btn">Visit Us To Know More</a-->
+        </div>
+    </section>
+
+    <!----Course---->
+    <section class="course">
+        <!--h1>Courses We Offer</h1>
+        <!--p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Intermediate (MPC) Engineering Faculty
+                    Intermediate (BPC) Science Faculty
+                    Intermediate (CEC) Commerce Faculty
+                    Intermediate (HEC) Humanities Faculty
+                    Intermediate (BZC) Zoological Faculty
+                    Intermediate ( Genetics, Biology, Chemistry) Genetics Faculty</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Engineering<br>
+                    Business
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Masters in Engineering<br>
+                    Master of Business Administration
+                </p-->
+            </div>
+        </div>
+    </section>
+
+    <!----Campus---->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Welcome to Oasis University, a vibrant and diverse academic community located in Canada. 
+            Our campus is spread over a vast area of land, surrounded by lush greenery, and equipped with state-of-the-art facilities to provide our students with an exceptional learning experience..</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images\39096371c7a0a0d20a79fc9b30262225.jpg" alt="London Campus">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images\df28951e8ef9ab1d0f974f004db00049.jpg" alt="New York Campus">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+
+            <div class="campus-col">
+                <img src="images\washington.jpg" alt="Washington Campus">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----Facilities---->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>As you walk around our campus, you will see a variety of academic buildings, residence halls, research centers, and recreational facilities.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="Library">
+                <h3>World Class Library</h3>
+                <p>Our library is housed in a modern building, designed to provide a comfortable and welcoming space for study and research. 
+                    The collection at the Oasis University library includes over a million books, journals, and a wide range of electronic databases, providing access to thousands of e-books, e-journals, and other digital resources.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="Play Ground">
+                <h3>Largest Play Ground</h3>
+                <p>Oasis University's playground is a popular spot for students to unwind and take a break from their academic pursuits. 
+                    The playground features a variety of recreational facilities, including basketball courts, soccer fields, and a jogging track.
+                     The well-maintained grounds and scenic views make the playground an ideal place to relax and stay active.
+                </p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="Cafeteria">
+                <h3>Tasty And Healthy</h3>
+                <p>Oasis University's canteen is a bustling hub of activity, providing students with a range of delicious and affordable food options. 
+                    The canteen features a variety of cuisines, catering to diverse tastes and dietary needs. 
+                    The friendly staff and welcoming atmosphere make the canteen a popular spot for students to socialize and refuel between classes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!----Testimonials---->
+    <section class="testimonials">
+        <h1>What Out Students Says?</h1>
+        <p>At Oasis University, we value the feedback and opinions of our students. Here are some comments from two of our current students:</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="images/user1.jpg" alt="User1">
+                <div>
+                    <p> "I am so glad I chose Oasis University for my undergraduate degree.
+                         The campus is beautiful, and the faculty are incredibly knowledgeable and supportive. 
+                         The library and research facilities are top-notch, and the extracurricular activities provide a great balance to my academic studies.
+                         I feel challenged and engaged in my coursework, and I know I am getting a world-class education here."</p>
+                    <h3>Christine Birley</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="images/user2.jpg" alt="User2">
+                <div>
+                    <p> "I was nervous about starting university, but the staff and faculty at Oasis University have made the transition so smooth.
+                         I love the small class sizes, which allow for more personalized attention from my professors. 
+                         The campus is welcoming and inclusive, and I have already made so many friends through the various student clubs and organizations.
+                         I feel like I am part of a community here, and I am excited to see where my academic journey takes me."</p>
+                    <h3>Saiyed Rashed</h3>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Call For Action---->
+    <section class="cfa">
+        <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+        <a href="#" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>At Oasis University, we believe in the power of education to transform lives and make a positive impact in the world.
+             We are proud to be a leading academic institution in Canada and to contribute to the advancement of knowledge and the betterment of society.</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitch" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <!--p>Made with <i class="fa fa-heart" aria-hidden="true"></i> By <a href="#">MdRasen</a></p-->
+          </section>
+
+
+    <!---Javascript for toggole menu--->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
